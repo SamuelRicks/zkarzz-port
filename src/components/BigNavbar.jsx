@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 const BigNavbar = () => {
   return (
     <Wrapper>
-      <div className="big-nav">
+      <div className="big-nav ">
         <div className="logo">
           <Logo />
         </div>

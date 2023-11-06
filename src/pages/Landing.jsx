@@ -7,15 +7,12 @@ const Landing = () => {
     <Wrapper>
       <Hero />
       <div className="wide-view">
-        <Title title="projects" />
         <Projects />
       </div>
       <div className="wide-view">
-        <Title title="About Me" />
         <About />
       </div>
       <div className="wide-view">
-        <Title title="Contact" />
         <Contact />
       </div>
     </Wrapper>

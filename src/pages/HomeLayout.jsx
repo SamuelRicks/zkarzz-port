@@ -27,8 +27,8 @@ const HomeLayout = () => {
           <SmallSidebar />
           <BigSidebar />
           <div>
-            <BigNavbar />
             <Navbar />
+            <BigNavbar />
             <div className="home-layout">
               <Outlet />
               <Footer />

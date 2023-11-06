@@ -20,7 +20,7 @@ const Wrapper = styled.section`
     line-height: 1.5rem;
     color: #000000;
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin: 0;
   }
   .info {
@@ -28,14 +28,27 @@ const Wrapper = styled.section`
   }
 
   @media (min-width: 922px) {
+    .section {
+      min-height: calc(50vh - var(--nav-height));
+    }
     .info {
+      overflow: visible;
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      align-content: center;
+      align-content: start;
+      max-width: var(--fluid-width);
     }
     .contact-me {
       display: block;
+    }
+    .info-left {
+      height: fit-content;
+      h1 {
+        line-height: 1em;
+      }
+    }
+    .info-right {
     }
     button {
       background: transparent;

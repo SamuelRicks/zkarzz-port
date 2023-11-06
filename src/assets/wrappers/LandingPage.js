@@ -26,6 +26,13 @@ const Wrapper = styled.section`
     margin-top: -6rem;
     margin-bottom: 0;
   }
+
+  @media (min-width: 922px) {
+    .wide-view {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 `;
 
 export default Wrapper;

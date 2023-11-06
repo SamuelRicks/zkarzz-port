@@ -13,6 +13,8 @@ const Wrapper = styled.nav`
       display: flex;
       align-items: center;
       justify-content: space-between;
+      z-index: 2;
+      margin-bottom: 2rem;
     }
 
     .nav-link {

@@ -5,15 +5,9 @@ import Media from "./Media";
 import { useHomeLayoutContext } from "../pages/HomeLayout";
 
 const Bigsidebar = () => {
-  const { showSidebar } = useHomeLayoutContext();
-
   return (
     <Wrapper>
-      <div
-        className={
-          showSidebar ? "sidebar-container " : "sidebar-container show-sidebar"
-        }
-      >
+      <div className="sidebar-container show-sidebar">
         <div className="content">
           <header>
             <img src={line} alt="line" />

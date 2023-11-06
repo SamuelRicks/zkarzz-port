@@ -9,9 +9,7 @@ const Navbar = () => {
     <Wrapper>
       <div className="nav-center">
         <div className="logo">
-          <a href=".">
-            <Logo />
-          </a>
+          <Logo />
         </div>
         <button className="toggle-btn" onClick={toggleSidebar}>
           <img src={toggle} alt="toggle" />
