@@ -1,6 +1,7 @@
 import Wrapper from "../assets/wrappers/BigSidebar";
 import NavLinks from "./NavLinks";
-import Logo from "./Logo";
+import line from "../assets/images/line.svg";
+import Media from "./Media";
 import { useHomeLayoutContext } from "../pages/HomeLayout";
 
 const Bigsidebar = () => {
@@ -15,9 +16,11 @@ const Bigsidebar = () => {
       >
         <div className="content">
           <header>
-            <Logo />
+            <img src={line} alt="line" />
           </header>
-          <NavLinks isBigSidebar />
+          <div className="media">
+            <Media />
+          </div>
         </div>
       </div>
     </Wrapper>

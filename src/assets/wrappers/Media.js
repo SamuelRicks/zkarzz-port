@@ -16,6 +16,18 @@ const Wrapper = styled.div`
   .discord {
     filter: invert(100%);
   }
+
+  @media (min-width: 922px) {
+    .media-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .icon {
+      height: 30px;
+    }
+  }
 `;
 
 export default Wrapper;

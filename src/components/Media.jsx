@@ -7,7 +7,7 @@ const Media = () => {
   return (
     <Wrapper>
       <div className="media-container">
-        <a href="https://github.com/SamuelRicks/jobify" target="blank">
+        <a href="https://github.com/SamuelRicks/" target="blank">
           <img src={github} alt="github" className="icon github" />
         </a>
         <img src={facebook} alt="facebook" className="icon facebook" />
