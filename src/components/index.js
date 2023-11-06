@@ -1,0 +1,17 @@
+export { default as AboutHero } from "./AboutHero";
+export { default as BigNavbar } from "./BigNavbar";
+export { default as BigSidebar } from "./Bigsidebar";
+export { default as ContactHero } from "./ContactHero";
+export { default as Footer } from "./Footer";
+export { default as FormRow } from "./FormRow";
+export { default as FunFacts } from "./FunFacts";
+export { default as Hero } from "./Hero";
+export { default as Logo } from "./Logo";
+export { default as MainImg } from "./MainImg";
+export { default as Media } from "./Media";
+export { default as Navbar } from "./Navbar";
+export { default as NavLinks } from "./NavLinks";
+export { default as ProjectTile } from "./ProjectTile";
+export { default as Skills } from "./Skills";
+export { default as SmallSidebar } from "./SmallSidebar";
+export { default as Title } from "./Title";
