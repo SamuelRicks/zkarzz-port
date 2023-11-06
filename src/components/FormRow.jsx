@@ -1,17 +1,19 @@
 import Wrapper from "../assets/wrappers/FormRow";
-import { Logo } from "../components";
 
-const FormRow = ({ type, name, defaultValue }) => {
+const FormRow = ({ type, name, text, required }) => {
   return (
     <Wrapper>
       <div className="form-row">
-        <input
-          type={type}
-          id={name}
-          name={name}
-          className="form-input"
-          defaultValue={defaultValue || ""}
-        />
+        <div className="input-group">
+          <input
+            type={type}
+            id={name}
+            name={name}
+            className="form-input"
+            required
+          />
+          <label htmlFor={name}> {name} </label>
+        </div>
       </div>
     </Wrapper>
   );
