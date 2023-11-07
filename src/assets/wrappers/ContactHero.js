@@ -10,6 +10,12 @@ const Wrapper = styled.div`
     font-size: 1.1rem;
     line-height: 1.2rem;
   }
+  @media (min-width: 922px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -50px;
+  }
 `;
 
 export default Wrapper;

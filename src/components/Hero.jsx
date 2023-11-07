@@ -6,7 +6,6 @@ import { useHomeLayoutContext } from "../pages/HomeLayout";
 import { NavLink } from "react-router-dom";
 
 const Hero = () => {
-  const { toggleSidebar } = useHomeLayoutContext();
   return (
     <Wrapper>
       <div className="container section">
@@ -21,12 +20,7 @@ const Hero = () => {
               creativity
             </p>
 
-            <NavLink
-              to="contact"
-              key="contact"
-              className="contact-me"
-              onClick={toggleSidebar}
-            >
+            <NavLink to="contact" key="contact" className="contact-me">
               <button type="button"> Contact me!!!</button>
             </NavLink>
           </div>

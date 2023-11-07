@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  min-height: calc(100vh - var(--nav-height));
   display: grid;
-  margin-top: 1rem;
-  margin-bottom: -4rem;
+
   span {
     color: var(--primary-500);
   }
@@ -17,7 +15,7 @@ const Wrapper = styled.section`
     color: #000000;
     font-weight: 500;
     font-size: 1.1em;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   .wide-view {
     display: none;

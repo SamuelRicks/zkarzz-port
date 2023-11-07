@@ -12,7 +12,7 @@ const About = () => {
           text={["I like ", <span>pizza</span>, " and ", <span>pasta.</span>]}
         /> */}
 
-      <div>
+      <div className="skill-area">
         <Skills
           title="languages"
           text="Python, Javascritpt, HTML, EJS6, REST, SCSS"

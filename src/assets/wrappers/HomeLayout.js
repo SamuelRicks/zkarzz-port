@@ -8,7 +8,7 @@ const Wrapper = styled.section`
   .home-layout {
     width: 90vw;
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: 0 0;
   }
 
   @media (min-width: 922px) {

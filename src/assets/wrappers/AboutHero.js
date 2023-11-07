@@ -43,6 +43,42 @@ const Wrapper = styled.section`
     font-size: 1rem;
     font-family: Fira Code;
   }
+
+  @media (min-width: 922px) {
+    .section {
+      min-height: calc(50vh - var(--nav-height));
+    }
+    .info {
+      overflow: visible;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      align-content: start;
+      max-width: var(--fluid-width);
+    }
+    .contact-me {
+      display: block;
+    }
+    .info-left {
+      height: fit-content;
+      h1 {
+        line-height: 1em;
+      }
+    }
+    .info-right {
+    }
+    button {
+      background: transparent;
+      padding: 0.75rem 0.5rem;
+      border: 2px solid var(--primary-500);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 1rem;
+      font-family: Fira Code;
+    }
+  }
 `;
 
 export default Wrapper;

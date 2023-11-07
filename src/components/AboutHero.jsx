@@ -1,13 +1,9 @@
 import Wrapper from "../assets/wrappers/AboutHero";
 
-import { useHomeLayoutContext } from "../pages/HomeLayout";
-import { NavLink } from "react-router-dom";
-import Skills from "./Skills";
 import MainImg from "./MainImg";
 import Status from "./Status";
 
 const AboutHero = () => {
-  const { toggleSidebar } = useHomeLayoutContext();
   return (
     <Wrapper>
       <div className="section">
@@ -32,17 +28,6 @@ const AboutHero = () => {
               Z will craft responsive websites where technologies meet
               creativity
             </p>
-            <NavLink
-              to="about"
-              key="about"
-              className="about-me"
-              onClick={toggleSidebar}
-            >
-              <button type="button" className="about-me">
-                {" "}
-                Read more{" "}
-              </button>
-            </NavLink>
           </div>
           <div className="info-right">
             <MainImg />

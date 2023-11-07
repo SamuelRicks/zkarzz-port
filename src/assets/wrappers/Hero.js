@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
+  margin: 0;
   .section {
-    min-height: calc(100vh - var(--nav-height));
+    min-height: calc(60vh - var(--nav-height));
     display: grid;
   }
   .contact-me {
@@ -21,10 +22,11 @@ const Wrapper = styled.section`
     color: #000000;
     font-weight: 500;
     font-size: 1.1rem;
-    margin: 0;
+    margin-bottom: 1rem;
   }
   .info {
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
   }
 
   @media (min-width: 922px) {

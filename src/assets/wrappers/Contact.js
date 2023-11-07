@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     width: 100%;
     padding: 10px;
     outline: 0;
-    border: 1px solid black;
+    border: 2px solid black;
     background: transparent;
     color: black;
   }
@@ -50,6 +50,22 @@ const Wrapper = styled.div`
   textarea:valid ~ label {
     top: -25px;
     font-size: 0.75rem;
+  }
+
+  @media (min-width: 922px) {
+    .contact-area {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .form-area {
+      display: flex;
+      margin: 10px;
+      flex-direction: column;
+    }
+    .inside-elements {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;
 
