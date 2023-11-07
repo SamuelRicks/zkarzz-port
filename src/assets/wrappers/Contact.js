@@ -66,6 +66,11 @@ const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
     }
+    .two-inputs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
   }
 `;
 

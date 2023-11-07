@@ -13,8 +13,10 @@ const Contact = () => {
           method="post"
         >
           <div className="inside-elements">
-            <FormRow type="text" name="name" />
-            <FormRow type="email" name="email" />
+            <div className="two-inputs">
+              <FormRow type="text" name="name" className="inside-flex" />
+              <FormRow type="email" name="email" className="inside-flex" />
+            </div>
             <FormRow type="text" name="title" />
             <div className="input-group">
               <textarea
